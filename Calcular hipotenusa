@@ -1,0 +1,26 @@
+/******************************************************************************
+Calcular hipotenusa 
+Autor: Elisa Michelle MV.
+Fecha: 230322
+*******************************************************************************/
+#include <iostream> 
+#include <cmath>
+using namespace std;
+int main ()
+{
+    //Declaración de variables 
+    float hipotenusa, catetoA, catetoB;
+    
+    
+    //Entrada de datos por teclado y procedimientos 
+    std::cout<< " Escribe el valor del catetoA " ;
+    std::cin>> catetoA;
+    std::cout<< " Escribe el valor del catetoB " ;
+    std::cin>> catetoB;
+    hipotenusa= sqrt(catetoA * catetoA + catetoB * catetoB); 
+    std::cout<< " La hipotenusa de un triángulo rectángulo es " <<hipotenusa<<std::endl;
+    
+    return 0;
+}
+
+
